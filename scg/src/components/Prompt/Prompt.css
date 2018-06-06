@@ -1,0 +1,44 @@
+.prompt {
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prompt .prompt-group {
+  width: 280px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border-radius: 10px;
+}
+.prompt-group img {
+  width: 105px;
+  margin: 10px 35px 0 31px;
+}
+
+.prompt-text {
+  text-align: center;
+  font-family: Thonburi-Light;
+  font-size: 14px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.icon-prompt {
+  display: flex;
+  justify-content: center;
+}
+.prompt-icon-app {
+  width: 90px;
+  height: 30px;
+  margin-right: 15px;
+}
+
+.prompt-icon-google {
+  width: 100px;
+  height: 30px;
+}

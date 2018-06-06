@@ -1,0 +1,175 @@
+.breadcrumb-side {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+.breadcrumb-text {
+  font-family: Thonburi-Light;
+  font-size: 24px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 21px;
+}
+
+.breadcrumb-text > ul.breadcrumb {
+  list-style: none;
+  background: unset;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-bottom: 0;
+  list-style: none;
+  border-radius: 0.25rem;
+}
+
+.setting .setting-group {
+  padding-bottom: 40px;
+}
+
+.setting .setting-group .store-point {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.setting .profile {
+  border-bottom: 1px solid #f2f2f2;
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0 5px 0;
+}
+
+.setting .setting-pass {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 40px 0;
+  width: 100%;
+}
+
+.setting .profile .label1 {
+  display: flex;
+  flex-basis: 30%;
+}
+
+.setting .profile .label2 {
+  flex-grow: 1;
+  text-align: right;
+}
+
+.setting .setting-app {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 40px 0;
+}
+
+.setting .setting-input {
+  border-radius: unset;
+  color: #979797;
+  text-align: right;
+  font-size: 16px;
+  cursor: pointer;
+  width: 80%;
+}
+
+.setting .setting-profile .in-profile {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.setting .profile .label {
+  display: flex;
+  flex-basis: 15%;
+}
+
+input {
+  width: 100%;
+  padding: 0 10px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.setting input[type="checkbox"]:checked ~ .switch {
+  background: #ff9d97;
+  transition: 0.5s;
+}
+.setting .switch {
+  display: block;
+  width: 34px;
+  height: 14px;
+  background: #939393;
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  transition: 0.5s;
+  left: 0;
+}
+.setting input[type="checkbox"]:checked ~ .toggle {
+  background: #ee2524;
+  left: 18px;
+  transition: 0.5s;
+}
+.setting .toggle {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  top: -3px;
+  left: -8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.5s;
+}
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+.setting .card {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  border: unset;
+  min-width: 40px;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #ffffff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+a,
+area,
+button,
+[role="button"],
+input:not([type="range"]),
+label,
+select,
+summary,
+textarea {
+  touch-action: manipulation;
+}
+
+.button-scg {
+  display: flex;
+  justify-content: center;
+}
+
+.button-scg .btn-scg {
+  width: 345px;
+  background: linear-gradient(to right, #a71818, #ee2524);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  font-family: Thonburi-Light;
+  font-size: 16px;
+  color: #ffffff !important;
+}

@@ -1,0 +1,23 @@
+.header-account {
+  display: flex;
+  display: -webkit-inline-box;
+  align-items: center;
+  float: right;
+}
+.account-content {
+  text-align: right;
+  font-family: Thonburi-Light;
+  font-size: 14px;
+  color: white;
+  margin-right: 20px;
+}
+.account-name {
+  /* text: */
+  font-family: Thonburi-Bold;
+}
+
+.account-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
